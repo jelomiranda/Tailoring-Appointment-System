@@ -4,11 +4,12 @@
 
 
 .hero {
-    background: url(../assets/bg1.png) no-repeat;
+    background: url(../assets/bg3.png) no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #FFD699;
+    background-color: #080807;
     background-attachment: fixed;
+   
 }
 
 .navbar-nav .active {
@@ -18,25 +19,36 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Vidaloka', serif;
 }
 .heading1 {
-    font-size: 80px;
+    font-size: 95px;
     text-align: center;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
 }
-.text-white{
+.text-color{
     color: #ffffff;
 }
 .heading2 {
     font-size: 70px;
 }
 .container {
-    height: 500px;
-    width: 40%;
+    height: 680px;
+    width: 47%;
     position: center;
 }
 
 .booknow {
-    margin: 0;
+    margin: 50;
     position: static;
     top: 50%;
     transform: translateY(50%);
-    transform: translateX(70%);
+    transform: translateX(190%);
 }
+
